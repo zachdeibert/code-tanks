@@ -17,6 +17,9 @@ namespace Com.GitHub.ZachDeibert.CodeTanks.Server {
             if (req.Strafe.Rate != 0 && player.Tank.Motors < 4) {
                 throw new NotSupportedException("Need at least four motors to strafe");
             }
+            if (req.Forward.Rate < 0 || req.Forward.Rate > 1 || req.Turn.Rate < 0 || req.Turn.Rate > 1 || req.Strafe.Rate < 0 || req.Strafe.Rate > 1) {
+                throw new ArgumentOutOfRangeException("Rates must be between 0 and 1");
+            }
             player.Movement = req;
             return new SuccessfulResponse();
         }
