@@ -10,5 +10,6 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build"
-    }
+    },
+    "homepage": "https://zachdeibert.github.io/code-tanks"
 }

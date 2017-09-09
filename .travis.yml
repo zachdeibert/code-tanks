@@ -5,6 +5,7 @@ script:
 - cd ui
 - npm install
 - npm run build
+- cd ..
 cache:
   directories:
   - "ui/node_modules"
@@ -14,4 +15,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   on:
     branch: master
-  local_dir: ui/build
+  local_dir: "ui/build"
