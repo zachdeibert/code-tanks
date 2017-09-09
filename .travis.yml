@@ -2,8 +2,9 @@ language: node_js
 node_js:
 - "node"
 script:
-- cd ui && npm install
-- cd ui && npm build
+- cd ui
+- npm install
+- npm build
 cache:
   directories:
   - "ui/node_modules"
