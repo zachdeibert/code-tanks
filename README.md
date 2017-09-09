@@ -1,4 +1,4 @@
-# Anonymous Tank Simulator
+# Autonomous Tank Simulator
 
 This is an application that allows people to write anonymous tank code, then the
 simulator will battle them and display the results.
