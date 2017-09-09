@@ -13,6 +13,10 @@ public final class TankCannon {
 		network.postAuthenticated(charge, SuccessfulResponse.class);
 	}
 
+	public void fire() throws IOException {
+		network.postAuthenticated(fire, SuccessfulResponse.class);
+	}
+
 	public TankCannon(final TankNetwork network, final int i) {
 		this.network = network;
 		this.charge = String.format("/cannon/%d/charge", i);
