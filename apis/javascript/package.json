@@ -1,0 +1,9 @@
+{
+    "name": "code-tanks-api",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "jquery": "^3.2.1"
+    },
+    "homepage": "https://github.com/zachdeibert/code-tanks"
+}
