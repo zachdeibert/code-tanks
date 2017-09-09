@@ -168,7 +168,8 @@ Content-Length: 3232
             ]
         },
         "duration": 1000
-    }
+    },
+    "tankSize": 0.04
 }
 ```
 
