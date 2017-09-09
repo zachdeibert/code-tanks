@@ -71,7 +71,7 @@ public final class Tank implements AutoCloseable {
 		network.close();
 	}
 
-	public Tank(TankNetwork network, TankInfo info) throws IOException {
+	public Tank(TankNetwork network, TankInfo info) {
 		this.network = network;
 		this.info = info;
 		movement = new MoveData();
