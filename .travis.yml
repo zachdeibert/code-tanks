@@ -4,7 +4,7 @@ node_js:
 script:
 - cd ui
 - npm install
-- npm build
+- npm run build
 cache:
   directories:
   - "ui/node_modules"
